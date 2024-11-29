@@ -394,7 +394,7 @@ void messagetophone()
     }
                              
     // Send a test message to the phone
-    if (bot.sendMessage("7695097447", strdata.c_str())) 
+    if (bot.sendMessage("CHAT-ID", strdata.c_str())) 
     {
       // Display success with success beep
       displaytext("Success!",1);
