@@ -3,7 +3,10 @@
 
 This was create for the joint assesment between CMP101 & CMP104.
 
-This is to solve a problem I have which is remembering when food is going out of date and to help reduce the food waste I produce. 
+This system is to help manage food waste, it has a easy to use and user frendly interface to help track and manage items which perish quicky
+these dates are stored in a .txt file stored on the wemos itself. A rotary dial is used for easier month/date inputs and all, leds count down from 8 days
+to the selected food expiry date which provides some visual indication. A buzzer is also implemented to relay a success and error messages to users.
+All text and graphic outputs are sent to a OLED screen. 
 
 All the features are listed below along with hardware used and libraries. There is also a section detail parts you need to change to get things to work.
 
